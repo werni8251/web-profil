@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Sederhana</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://drive.google.com/thumbnail?id=1f2y5OObf1jFzLYRKj3Aif-G7pOJICVhf');
+            background-size: cover; /* Ukuran gambar memenuhi seluruh halaman */
+            background-position: center; /* Memposisikan gambar di tengah */
+            background-attachment: fixed; /* Agar gambar tetap saat halaman di-scroll */
+            background-repeat: no-repeat; /* Agar gambar tidak diulang */
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            font-size: 2em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        nav {
+            text-align: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1em;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        #about, #skills, #contact {
+            background-color: white; /* Background putih untuk bagian Tentang */
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk mempercantik */
+            margin: 20px auto;
+            max-width: 600px; /* Batas lebar agar tidak terlalu besar */
+            border-radius: 10px; /* Sudut melengkung agar lebih lembut */
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+        section p {
+            font-size: 1em;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        #skills .skill-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .skill-list div {
+            background-color: #fff;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 150px;
+        }
+        .skill-list div h3 {
+            margin-bottom: 10px;
+            color: #4CAF50;
+            font-size: 1.1em;
+        }
+        #contact input, #contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        #contact button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        footer { 
+            background-color: #333; 
+            color: white; 
+            text-align: center; 
+            padding: 20px 0; 
+            margin-top: 30px; 
+        } 
+        footer .social-icons { 
+            margin: 15px 0; 
+        } 
+        footer .social-icons a { 
+            margin: 0 10px; 
+            display: inline-block; 
+            color: white; /* Warna default sesuai background footer */ 
+            text-decoration: none;
+            font-size: 24px;
+        } 
+        footer .social-icons a:hover { 
+            color: #4CAF50; /* Warna ketika di-hover */ 
+        } 
+        footer .social-icons img { 
+            width: 40px; /* Ukuran ikon */ 
+            height: 40px; /* Ukuran ikon */ 
+            transition: transform 0.3s; /* Efek transisi saat hover */ 
+        } 
+        footer .social-icons a:hover img { 
+        transform: scale(1.2); /* Membesarkan ikon saat hover */ 
+        } 
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="https://drive.google.com/thumbnail?id=1IKFlqF2gPipHSnUW1ENt1S1lKPjnlMH3" alt="Foto Profil">
+        <h1>Ervi</h1>
+        <p>Selamat Datang di Profil Pribadi Saya</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">Tentang</a>
+        <a href="#skills">Keterampilan</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>Saya adalah mahasiswa Universitas Respati Yogyakarta.Di Universitas Respati Yogyakarta saya mengambil program studi Informatika.
+            Alasan saya mengambil Prodi informatika adalah saya ingin mempelajari lebih lagi mengenai bagaimana sebuah teknologi bisa berkembang begitu cepat dan bagaimana teknologi itu bisa 
+            dengan mudah digunakan dan menjadi kebiasaan di kehidupan manusia.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Keterampilan</h2>
+        <div class="skill-list">
+            <div>
+                <h3>HTML</h3>
+            </div>
+            <div>
+                <h3>CSS</h3>
+            </div>
+            <div>
+                <h3>JavaScript</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Kontak Saya</h2>
+        <form>
+            <input type="text" placeholder="Nama">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Pesan"></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <footer id="footer">
+            <p>Hubungi saya di:</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/_vi_lxx/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/6285345028516" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="mailto:ervi8996@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        &copy; 2024 Ervi. Semua hak dilindungi.
+        
+    </footer>
+
+</body>
+</html>
